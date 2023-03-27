@@ -18,10 +18,10 @@
 ## 🐦 Latest Tweet
 [![](https://gtce.itsvg.in/api?username=@HetPatidar)](https://github.com/VishwaGauravIn/github-twitter-card-embed)
 
-### ✍️ Random Dev Quote
+### ✍️ Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-### 😂 Random Dev Meme
+### 😂 Dev Meme
 <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/0*4CBC_XcNLkP5_XLu.png" width="512px"/>
 
 ---
