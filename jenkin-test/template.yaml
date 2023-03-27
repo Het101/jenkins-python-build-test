@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+  MyFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: cal.lambda_handler
+      Runtime: python3.9
+      CodeUri: .
+      Timeout: 3
+      Environment:
+        Variables:
+          ENVIRONMENT: 'prod'
+      Events:
+        MyApi:
+          Type: Api
+          Properties:
+            Path: /my-path
+            Method: GET

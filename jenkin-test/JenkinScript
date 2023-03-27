@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scmGit(branches: [[name: 'main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Het101/jenkins-python-build-test.git']])
+                echo 'Done Chcekout'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'python3 cal.py'
+                echo 'Done Build'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'python3 -m pytest'
+                echo 'Done Test'
+                sh 'sam build'
+                sh 'sam deploy'
+            }
+        }
+    }
+}
