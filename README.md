@@ -16,7 +16,7 @@
 ![](https://github-profile-trophy.vercel.app/?username=Het101&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
 ## 🐦 Latest Tweet
-[![](https://gtce.itsvg.in/api?username=@HetPatidar)](https://github.com/VishwaGauravIn/github-twitter-card-embed)
+[![](https://gtce.itsvg.in/api?username=HetPatidar)](https://github.com/VishwaGauravIn/github-twitter-card-embed)
 
 ### ✍️ Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
