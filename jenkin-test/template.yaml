@@ -9,12 +9,3 @@ Resources:
       Runtime: python3.9
       CodeUri: .
       Timeout: 3
-      Environment:
-        Variables:
-          ENVIRONMENT: 'prod'
-      Events:
-        MyApi:
-          Type: Api
-          Properties:
-            Path: /my-path
-            Method: GET
